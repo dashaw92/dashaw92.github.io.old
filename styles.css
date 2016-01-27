@@ -1,0 +1,39 @@
+html {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial;
+    background: rgb(28,28,28);
+}
+
+div.links {
+    box-shadow: 1px 0px 10px #000;
+    background: rgb(45,45,45);
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    font-weight: bold;
+    color: rgb(170,170,170);
+    content: "» "
+}
+
+span.link {
+    color: rgb(156,156,156);
+}
+
+span.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
