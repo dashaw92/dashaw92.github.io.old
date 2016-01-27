@@ -40,7 +40,7 @@ ul {
 li::before {
     font-weight: bold;
     color: rgb(170,170,170);
-    content: "» ";
+    content: "\00bb ";
 }
 
 span.link {
