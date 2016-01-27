@@ -3,15 +3,28 @@ html {
 }
 
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: rgb(28,28,28);
+}
+
+div.viewer {
+    position: absolute;
+    left: 275px;
+    top: 0px;
+    height: 100%;
+    width: 79%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    color: rgb(120,120,120);
+    overflow: auto;
 }
 
 div.links {
     box-shadow: 1px 0px 10px #000;
     background: rgb(45,45,45);
     position: absolute;
-    width: 300px;
+    width: 270px;
     height: 100%;
     top: 0px;
     left: 0px;
@@ -20,17 +33,18 @@ div.links {
 }
 
 ul {
+    padding-left: 10px;
     list-style-type: none;
 }
 
 li::before {
     font-weight: bold;
     color: rgb(170,170,170);
-    content: "» "
+    content: "» ";
 }
 
 span.link {
-    color: rgb(156,156,156);
+    color: rgb(200,200,200);
 }
 
 span.link:hover {
