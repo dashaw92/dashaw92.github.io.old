@@ -20,6 +20,11 @@ div.viewer {
     overflow: auto;
 }
 
+object {
+    width: 100%;
+    height: inherit;
+}
+
 div.links {
     box-shadow: 1px 0px 10px #000;
     background: rgb(45,45,45);
