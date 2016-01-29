@@ -9,11 +9,12 @@ body {
 
 div.viewer {
     position: absolute;
-    left: 275px;
+    left: 0px;
     top: 0px;
     height: 100%;
-    width: 84.5%;
+    width: 79%;
     margin: 0px;
+    margin-left: 271px;
     padding: 0px;
     padding-left: 10px;
     color: rgb(120,120,120);
@@ -26,8 +27,8 @@ object {
 }
 
 div.links {
-    box-shadow: 1px 0px 10px #000;
     background: rgb(45,45,45);
+    box-shadow: 1px 0px 10px #000;
     position: absolute;
     width: 270px;
     height: 100%;

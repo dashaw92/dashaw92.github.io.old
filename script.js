@@ -4,5 +4,9 @@ function onLink(name) {
     //website
     
     //Sets the object's source to a new file
-    document.getElementById("view").setAttribute('data', 'repos/' + name + '.html');
+    var element = document.getElementById("view");
+
+    //Don't make the page load over and over when user clicks the same link
+    if(element.innerHTML.indexOf(name + ".html") != -1) return;
+    document.getElementById("view").innerHTML = "<object type='text/html' data='repos/" + name + ".html'></object>";
 }
