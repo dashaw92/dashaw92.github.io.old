@@ -21,6 +21,15 @@ div.viewer {
     overflow: auto;
 }
 
+a {
+    color: rgb(192,173,156);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
 object {
     width: 100%;
     height: inherit;
